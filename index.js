@@ -28,13 +28,13 @@ const questions = [
         {
             type:"input",
             name: "report",
-            message: "How do you report issues?",
+            message: "Issues can be reported by....",
             
         },
          {
              type:"input",
              name: "contribution",
-             message: "How can contributions be made?",
+             message: "Contribution can be made by...",
          },
          {
             type:"input",
@@ -59,7 +59,8 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     console.log("Hello World!");
-    inquirer.prompt(questions).then((writeToFile("ReadME.md",generateMarkdown)));
+    inquirer.prompt(questions).then((response) => 
+    writeToFile("ReadME.md",generateMarkdown(response)));
 
     console.log("All done, please checkout your fresh README");
 }
