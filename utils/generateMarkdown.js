@@ -15,7 +15,7 @@ function generateMarkdown(data) {
 
   * [Contributing](#contributing)
 
-  * [Issue Reportage](#Issue Reportage)
+  * [Issues](#Issue)
 
   * [Questions](#questions)
 
@@ -32,7 +32,7 @@ function generateMarkdown(data) {
 
   Contribution can be made by ${data.contribution}
 
-  ## Issue Reportage
+  ## Issues
   
   Issues can be reported by ${data.report}
 
