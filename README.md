@@ -2,7 +2,7 @@
   
   ## Description
 
-  This is a generator that asks questions regarding a project using inquierer. With the help of some Jquery and Markdown, a clean README is generated.
+  This is a generator that asks questions regarding a project using inquierer. With the help of JQuery, Nodejs, and Markdown, a clean README is generated.
 
 
   ## Table of Contents
@@ -13,26 +13,28 @@
 
   * [Contributing](#contributing)
 
-  * [Issue Reportage](#Issue Reportage)
+  * [Issues](#Issue)
 
   * [Questions](#questions)
 
 
   ## Installation
 
-  To install You clone the repo, then run npm install
+  To install,  clone the repo, then run npm install 
 
   ## Usage
 
-  Make sure that node_modules is downloaded, then run node index.js in the terminal
+  Make sure that node_modules is installed, then run node index.js in the terminal
+
+  [Video](https://drive.google.com/file/d/1DZ1g89p5Wg7lEgX2cjNdACRhu1vapzgx/view) link showing how to use the generator.
 
   ## Contributing
 
-  Contribution can be made by forking and contacting me.
+  Contributions can be made by contacting my email
 
-  ## Issue Reportage
+  ## Issues
   
-  Issues can be reported by making an issue on the github repo.
+  Issues can be reported by posting an issue on Github
 
   ## Questions
 
