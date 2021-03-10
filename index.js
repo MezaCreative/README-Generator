@@ -58,7 +58,7 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    console.log("Hello World!");
+    console.log("Begin README initialization ")
     inquirer.prompt(questions).then((response) => 
     writeToFile("ReadME.md",generateMarkdown(response)));
 
