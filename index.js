@@ -52,7 +52,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => 
-        err ? console.log(err) : cconsole.log("All done, please checkout your fresh README")
+        err ? console.log(err) : console.log("All done, please checkout your fresh README")
     )
 }
 
