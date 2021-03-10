@@ -16,7 +16,7 @@ const questions = [
         {
             type:"input",
             name: "installation",
-            message: "How do you install it"
+            message: "To install this you..."
         },
      
 

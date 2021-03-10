@@ -22,7 +22,7 @@ function generateMarkdown(data) {
 
   ## Installation
 
-  To install ${data.installation}
+  To install,  ${data.installation}
 
   ## Usage
 
@@ -30,7 +30,7 @@ function generateMarkdown(data) {
 
   ## Contributing
 
-  Contribution can be made by ${data.contribution}
+  Contributions can be made by ${data.contribution}
 
   ## Issues
   
