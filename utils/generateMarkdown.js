@@ -39,7 +39,7 @@ function generateMarkdown(data) {
   ## Questions
 
   For any comments, questions, or concerns, please contact me directly at ${data.email}.
-  You can find my work here --> [${data.username}](https://github.com/${data.github}).
+  You can find my work here --> [${data.username}](https://github.com/${data.username}).
   
   `;
   }

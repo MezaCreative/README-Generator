@@ -52,7 +52,7 @@ const questions = [
 // function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => 
-        err ? console.log(err) : console.log("Success!")
+        err ? console.log(err) : cconsole.log("All done, please checkout your fresh README")
     )
 }
 
@@ -62,7 +62,7 @@ function init() {
     inquirer.prompt(questions).then((response) => 
     writeToFile("ReadME.md",generateMarkdown(response)));
 
-    console.log("All done, please checkout your fresh README");
+    
 }
 
 // function call to initialize program
